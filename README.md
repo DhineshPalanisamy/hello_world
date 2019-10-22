@@ -12,4 +12,4 @@ Here's a suggested scenario demonstrating how git can work with MVS datasets:
 * Back at the Unix command line, run `./from_pds.sh` to copy the files back from MVS to Unix. This will also run a `git status` command, showing the changes.
 * When all done, run `./cleanup.sh` to delete the MVS datasets.
 
-Also present are batch job equivalents of the to_/from_pds.sh scrs.
+Also present are batch job equivalents of the to_/from_pds.sh scrhs.
