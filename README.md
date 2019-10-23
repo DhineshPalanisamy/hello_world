@@ -10,6 +10,6 @@ Here's a suggested scenario demonstrating how git can work with MVS datasets:
 * Run `./to_pds.sh` to populate the PDSes. This would be run any time the git repo is refreshed (via `git pull`).
 * Log into TSO, edit one of the source files, and save it.
 * Back at the Unix command line, run `./from_pds.sh` to copy the files back from MVS to Unix. This will also run a `git status` command, showing the changes.
-* When all done, run `./cleanup.sh` to delete the MVS datasets.
+* When all done, run `./cleanup.sh` to delete the MS datasets.
 
 Also present are batch job equivalents of the to_/from_pds.sh scrhs.
